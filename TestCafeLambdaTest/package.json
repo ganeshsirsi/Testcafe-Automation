@@ -1,0 +1,20 @@
+{
+  "name": "testcafelambdatest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lambdtatest": "testcafe \"lambdatest:Chrome@74.0:Windows 8\" \"C:/Tools/TestCafeLambdaTest/tests/test_group\"",
+    "test:chrome": "testcafe chrome --reporter html"
+  },
+  "author": "Ganesh Hegde",
+  "license": "ISC",
+  "dependencies": {
+    "@lambdatest/node-tunnel": "^3.0.1",
+    "testcafe": "^1.16.1",
+    "testcafe-reporter-html": "^1.4.6"
+  },
+  "devDependencies": {
+    "testcafe-browser-provider-lambdatest": "^2.0.5"
+  }
+}
